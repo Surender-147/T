@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body{
+  font-family: 'Inter', sans-serif;
+}
+input[type="text" i] {
+  padding-block: unset !important;
+  padding-inline: unset !important;
+    border: 1px solid transparent !important;
+}
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+outline: unset !important;
+}
+.common_btn{
+  color: #FFF;
+border: 1px solid transparent;
+padding: 10.5px 26px;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 8px;
+background: #2563EB;
+transition: all 0.3s ease-in-out;
+}
+.common_btn:hover{
+  border: 1px solid #2563EB;
+  background: transparent;
+  color: #2563EB;
+}
