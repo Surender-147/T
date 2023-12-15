@@ -13,7 +13,8 @@ const Todolist = ({ title, isCompleted, id }: TodoProps)  => {
        <div className="bg-white transition-all ease-in-out hover:bg-slate-100 flex justify-between  py-[10px] px-4 ">
           <p  className={`ff_inter text-black text-sm ${
             isCompleted ? "line-through" : ""
-          }`} >{title}</p>
+          }`} >{title}
+          </p>
           <div className="flex gap-3">
                  <button>
                  <TrashIcon height={24} width={24} />
